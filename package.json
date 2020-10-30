@@ -1,0 +1,18 @@
+{
+  "name": "field-assist-demo",
+  "version": "1.0.0",
+  "description": "Demo of field-assist package for easy work with input fields.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "field-assist": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

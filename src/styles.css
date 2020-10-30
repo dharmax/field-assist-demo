@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+section.form {
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 10em;
+}
+
+label {
+  color: #084545;
+}
+
+.errors {
+  color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Example</title>
+    <script src="src/index.js" />
+  </head>
+  <body>
+    <h1>Field Assist Demo</h1>
+    <section class="form">
+      <label
+        >Display Name: (english alpha only)
+        <input ref="name" type="text" pattern="[a-zA-Z ]*" />
+      </label>
+      <div class="bio">
+        <label
+          >About myself <br />
+          <textarea ref="generalBio" cols="30" rows="10"></textarea></label
+        ><br />
+      </div>
+      <div class="main-language">
+        <label
+          >Main Language
+          <select autocomplete="on" ref="preferredLanguage">
+            <option value="English">English</option>
+            <option value="German">German</option>
+            <option value="French">French</option>
+          </select>
+        </label>
+      </div>
+      <p>
+        <button>Send All</button>
+      </p>
+      <label class="errors">
+        Illegal values:
+        <pre id="errors"></pre>
+      </label>
+      <pre id="console"></pre>
+    </section>
+  </body>
+</html>
